@@ -1,5 +1,10 @@
 package main
 
+/**
+Домашняя работа bgo-3-01-01
+
+https://github.com/netology-code/bgo-homeworks/tree/master/01_std
+*/
 func main() {
 	purchase := 3333_33
 	percent := 1
@@ -8,5 +13,5 @@ func main() {
 	if bonus > limit {
 		bonus = limit
 	}
-	println(bonus) // должно быть 33* (см. объяснение ниже)
+	println(bonus)
 }
